@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-image: url(../imgs/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    padding: 40px;
+    width: 100vw;
+    border: 3px;
+    margin:0%
+}
+
+.titulo {
+    color: rgb(68, 0, 255);
+    padding: 40px;
+    font-style: oblique;
+    float: left;
+ font-size: 5cap;
+}
+
+h2{
+    color: darkblue;
+}
+.productos {
+    padding: 40px 20px;
+    background-color: rgb(201, 201, 179);
+    text-align: center;
+}
+
+.productos h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.producto {
+   display: inline-block; /* me gusta mas así de izq a der, que de arriba hacia abajo.  */
+    width: 250px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.producto p {
+    margin-top: 10px;
+    font-size: 1em;
+    font-style: italic;
+    color:black
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 1em;
+    font-style: italic;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   background-image: url(./assests/imgs/adopta.avif);
+   background-size: contain;
+   background-position: auto;
+   background-color: aqua;
+   height: 250px;
+   width: 250px;
+
+}
+
+header > h1{
+    color: magenta;
+    font-size: 100px;
+    margin-top: 50px;
+    font-style: oblique;
+   font-display: auto;
+   float: left;
+}
+
+.uno{
+    height: 100px;
+    align-items: flex-start
+}

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+
+body{
+   background: hsla(0, 0%, 0%, 0.977) no-repeat padding-box;
+    opacity: 1;
+}
+/* inicio */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 73px;
+}
+
+h1{
+    top: 7px;
+    left: 530px;
+    width: cover;
+    height: 59px;
+    text-align: center;
+    font: 1em sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 50px;
+    }
+
+    /* seccion imagen grande */
+.iguanota{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+.iguanota img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-position: center;
+    max-height: 500px;
+    flex-wrap: wrap;
+    image-resolution: content;
+
+}
+
+  /* seccion 2 parrafo e iguana en el palo */
+.palo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+
+}
+
+
+
+.parrafo{
+    flex: 2;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    text-align: justify;
+}
+
+.imagen-peq{
+    flex: 1;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* seccion 3 CARACTERÍSTICAS */
+.caract {
+    background-color: #1E1A13;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF;
+  }
+
+  .caract h2 {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+  }
+
+  .iconos-caract {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .caracteristica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .caracteristica i {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+  }
+
+/* seccion 4 fotos iguanas */
+.galeria-iguanitas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+    background-color: #000;
+  }
+
+  .galeria-iguanitas img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+
+/* seccion 5 footer */
+footer {
+    background-color: #1E1A13;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+  }

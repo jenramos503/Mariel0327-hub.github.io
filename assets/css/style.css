@@ -1,0 +1,64 @@
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(to bottom, #eaf6ff, #ffffff);
+  color: #212529;
+}
+
+h1, h2, h3, h5 {
+  color: #0d6efd; /* azul Bootstrap para títulos */
+  font-weight: 700;
+}
+
+.card-body, .list-group-item, p, a, li, .navbar {
+  font-family: inherit;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.card-img-top {
+  height: auto;
+  max-height: 300px;
+  object-fit: content;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card .btn {
+  margin-top: auto;
+}
+
+.card {
+  border: 3px solid #007bff;  /* igual al borde de la foto */
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.card:hover {
+  border-color: #0056b3;
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+body {
+  background: linear-gradient(to bottom right, #d3f3df, #ffffff);
+}
+
+
+

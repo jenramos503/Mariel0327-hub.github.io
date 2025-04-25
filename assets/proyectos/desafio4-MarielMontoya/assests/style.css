@@ -1,0 +1,91 @@
+/* ===================================
+   Roboto para todos
+=================================== */
+body, h1, h2, h3, h4, h5, h6, p, div, span, small, a, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* ===================================
+     Colors
+  =================================== */
+  .text-verde {
+    color: #28A745;
+  }
+
+  .bg-verde {
+    background-color: #28A745;
+  }
+
+  .letra {
+    color: #707070;
+  }
+
+  .text-cyan {
+    color: #212529;
+  }
+
+  /* ===================================
+     Footer
+  =================================== */
+  .logo-footer {
+    height: 20px;
+    width: auto;
+  }
+
+  .text-footer {
+    color: #707070;
+  }
+
+  /* ===================================
+     PESOS PERSONALIZADOS
+  =================================== */
+  .titulo-medium {
+    font-weight: 500;
+  }
+
+  .fw-bold {
+    font-weight: 500 !important;
+  }
+
+  .fw-normal {
+    font-weight: 400 !important;
+  }
+
+  /* ===================================
+      CARDS
+  =================================== */
+
+  /* Título  */
+  .titulo-card {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  /* Nombre del lugar */
+  .lugar-card {
+    font-size: 0.9rem;
+    color: #707070;
+    margin-bottom: 0.3rem;
+  }
+
+  /* Dirección */
+  .direccion-card {
+    font-size: 0.8rem;
+    color: #707070;
+  }
+
+  /* Precios  */
+  .card-footer small {
+    font-size: 0.85rem;
+    color: #707070;
+    font-weight: 400;
+  }
+
+  .card-footer .text-verde {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
