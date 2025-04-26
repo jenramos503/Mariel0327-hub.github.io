@@ -1,64 +1,77 @@
+/* style.css */
+
+/* Fuente general */
 body {
-  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-  background: linear-gradient(to bottom, #eaf6ff, #ffffff);
-  color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
 }
 
-h1, h2, h3, h5 {
-  color: #0d6efd; /* azul Bootstrap para títulos */
+/* Titulares personalizados */
+h1, h2, h3, h4 {
   font-weight: 700;
+  color: #0d6efd; /* azul Bootstrap */
 }
 
-.card-body, .list-group-item, p, a, li, .navbar {
-  font-family: inherit;
+/* Enlaces */
+a {
+  text-decoration: none;
 }
 
-.navbar-nav .nav-link {
-  color: white !important;
+a:hover {
+  text-decoration: underline;
+}
+
+/* Secciones */
+section {
+  scroll-margin-top: 80px; /* Para navegación fluida */
+}
+
+/* Imágenes redondas con borde de color */
+img.rounded-circle {
+  max-width: 250px;
+}
+
+/* Navbar fijo con sombra sutil */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  background-color: #212529;
+}
+
+/* Botón de portafolio */
+.card .btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.card .btn:hover {
+  transform: scale(1.05);
+}
+
+/* Tarjetas */
+.card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .card-img-top {
-  height: auto;
-  max-height: 300px;
-  object-fit: content;
-  width: 100%;
-  display: block;
-  margin: 0 auto;
+  object-fit: cover;
+  height: 200px;
 }
 
+/* Responsivo */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
 
-
-.card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
 }
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
-.card .btn {
-  margin-top: auto;
-}
-
-.card {
-  border: 3px solid #007bff;  /* igual al borde de la foto */
-  border-radius: 1rem;
-  background-color: white;
-}
-
-.card:hover {
-  border-color: #0056b3;
-  transform: translateY(-4px);
-  transition: all 0.3s ease;
-}
-
-body {
-  background: linear-gradient(to bottom right, #d3f3df, #ffffff);
-}
-
-
-
